@@ -45,9 +45,7 @@ Any Jira ticket for a resolved POAM is automatically closed.
 Result: Your Jira dashboard stays clean, showing only active/remediating POAMs.
 
 Summary Flow Diagram
-pgsql
-Copy
-Edit
+
 POAM Excel (.xlsx) → CSV → S3 Bucket
                                 ↓
          Jira auto-creates tickets from CSV import
